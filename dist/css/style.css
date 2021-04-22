@@ -1,0 +1,359 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.overlay {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.vagi_wrapper {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.food_header {
+  width: 100%;
+  height: 600px;
+  background-image: url(../../img/header.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+          clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+}
+
+.site_headign {
+  font-family: 'Merienda', cursive;
+  color: #fff;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.site_subheading {
+  font-size: 20px;
+  color: #fff;
+  letter-spacing: 6px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  margin-bottom: auto;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul a {
+  display: block;
+  text-decoration: none;
+  color: #333;
+  padding: 20px;
+}
+
+.navbar ul a.active {
+  color: #689f38;
+}
+
+.mb_auto {
+  margin-bottom: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h2.s-head {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 35px;
+  margin-bottom: 70px;
+}
+
+.rounded {
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.food_about {
+  padding: 80px 0;
+}
+
+.food_about h4 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #444;
+}
+
+.food_about h4 span {
+  color: #689f38;
+}
+
+.food_about p {
+  color: #555;
+}
+
+.line-space {
+  line-height: 40px;
+}
+
+figure {
+  position: relative;
+  width: 310px;
+  height: 310px;
+}
+
+figure img {
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+figure .bg_gr {
+  position: absolute;
+  top: 40px;
+  left: -40px;
+  width: 100%;
+  height: 100%;
+  background-color: #689f38;
+  z-index: -1;
+}
+
+.food_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: #689f38;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.food_icons i {
+  font-size: 40px;
+  margin: auto;
+}
+
+.food_offer {
+  width: 100%;
+  height: 500px;
+  background-image: url(../../img/offer.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.food_offer h1 {
+  font-weight: 600;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.food_offer p {
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+
+.offer_btn {
+  text-decoration: none;
+  display: inline-block;
+  color: #689f38;
+  background-color: #fff;
+  padding: 10px 25px;
+  border-radius: 25px;
+  margin-top: 15px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.offer_btn:hover {
+  background-color: #689f38;
+  color: #fff;
+}
+
+.food_menu {
+  padding: 80px 0;
+}
+
+.food_menu h3 {
+  color: #444;
+  font-weight: 400;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.menu {
+  list-style: none;
+}
+
+.menu_item {
+  color: #707070;
+  line-height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu_price {
+  color: #689f38;
+}
+
+.food_testimonial {
+  width: 100%;
+  height: 500px;
+  background-image: url(../../img/testimonial.png);
+}
+
+.food_testimonial h2 {
+  color: #fff;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.testimonials {
+  width: 800px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 60px 30px;
+  border-radius: 4px;
+}
+
+.testimonials_text {
+  color: #444;
+  line-height: 40px;
+}
+
+.testimonials_user {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #689f38;
+}
+
+.food_footer {
+  padding: 80px;
+  background-color: #222;
+}
+
+.brand {
+  font-family: 'Merienda', cursive;
+  color: #689f38;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.food_footer p {
+  color: #fff;
+  line-height: 40px;
+}
+
+.margin-top {
+  margin-top: 30px;
+}
+
+.social-icons {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social-icons li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #689f38;
+  margin-right: 20px;
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
+  cursor: pointer;
+}
+
+.social-icons li:hover {
+  background-color: #fff;
+  color: #689f38;
+}
+
+.social-icons li:hover i {
+  color: #689f38;
+}
+
+.social-icons li i {
+  color: #fff;
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
+}
+
+.text-pay {
+  font-size: 20px;
+  font-weight: 400;
+  color: #689f38;
+  margin: 30px 0;
+}
+
+.list-inline {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.list-inline li {
+  margin-right: 20px;
+}
+
+.list-inline li i {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
